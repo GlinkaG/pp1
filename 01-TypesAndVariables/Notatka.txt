@@ -1,0 +1,5 @@
+Zmienna - konstrukcja programistyczna wskazuj¹ca na dany obszar pamiêci, s³u¿y do 
+przechowywania danych w czasie dzia³ania programu
+
+Typ - to rodzaj danych przechowywanych w zmiennej, mówi nam o iloœci miejsca w pamiêci
+któr¹ musimy zarezerwowaæ do przechowania zmiennej
