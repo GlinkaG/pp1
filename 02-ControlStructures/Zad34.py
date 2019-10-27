@@ -1,8 +1,13 @@
 PESEL = str(input("Podaj swój numer PESEL: "))
 
 #obliczamy wiek
-rok_urodzenia = int("19" + PESEL[0:2])
-data_urodzenia = ("19" + PESEL[0:2] + "-" + PESEL[2:4] + "-" + PESEL[4:6])
+if PESEL[2] == "0" or PESEL[2] == "1":
+    rok_urodzenia = int("19" + PESEL[0:2])
+    data_urodzenia = ("19" + PESEL[0:2] + "-" + PESEL[2:4] + "-" + PESEL[4:6])
+
+elif PESEL[2] == "2" or PESEL[2] == "3":
+    rok_urodzenia = int("20" + PESEL[0:2])
+    data_urodzenia = ("20" + PESEL[0:2] + "-" + PESEL[2:4] + "-" + PESEL[4:6])
 
 wiek = 2018 - rok_urodzenia
 print(f"Wiek: {wiek}")
