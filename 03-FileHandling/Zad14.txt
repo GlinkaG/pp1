@@ -1,0 +1,21 @@
+a) .
+b) (Poland)
+c) (Poland|Germany|France)
+d) [a-zA-Z]
+e) [A-Z]
+f) \d
+g) \D
+h) \s
+i) [aeyiou]
+j) (\d\d\d\d)
+k)(\d\d%)
+l)\W\s
+m)[A-Za-z]*[A-Za-z']
+n)\b[Nn]{1}[A-Za-z]+\b
+o)\b[A-Za-z]{3}\b
+p)\b[A-Za-z']{5,}\b
+q)\b[A-Z][a-z']+\b
+r)(the)
+s)\b(and)
+t)
+u)
